@@ -1,57 +1,79 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #eceef0;
-  --surface: #ffffff;
-  --surface-2: #e2e5e8;
-  --ink: #1c232b;
-  --ink-muted: #5b6570;
-  --ink-faint: #8a929a;
-  --accent: #b8432d;
-  --accent-ink: #ffffff;
-  --rule: #d3d7da;
+  --brand-bg: #f6f3ee;
+  --brand-surface: #ffffff;
+  --brand-surfaceAlt: #eee9e0;
+  --brand-text: #1b2430;
+  --brand-textMuted: #5b6472;
+  --brand-border: #e4ddd1;
+  --brand-orange: #f57b3c;
+  --brand-orangeLight: #f89449;
+  --brand-blueDeep: #055aaa;
+  --brand-blue: #0b73bc;
+  --brand-blueLight: #a6c4de;
+  --brand-bluePale: #d8e6f1;
+  --brand-orangeInk: #ffffff;
+  /* Not part of the v2 brief - kept distinct from brand.orange so a
+     primary CTA and a warning never read as the same color. */
   --good: #3f7a54;
   --warn: #b8432d;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #14181c;
-    --surface: #1b2126;
-    --surface-2: #232a30;
-    --ink: #e7e9ea;
-    --ink-muted: #9aa3aa;
-    --ink-faint: #6b747c;
-    --accent: #e2694b;
-    --accent-ink: #14181c;
-    --rule: #2c333a;
+    --brand-bg: #14181d;
+    --brand-surface: #1d232a;
+    --brand-surfaceAlt: #20262d;
+    --brand-text: #edeff1;
+    --brand-textMuted: #9ba6b1;
+    --brand-border: #2c333b;
+    --brand-orange: #ff8c52;
+    --brand-orangeLight: #ffa46b;
+    --brand-blueDeep: #4c9ee0;
+    --brand-blue: #5fb0ee;
+    --brand-blueLight: #2e4a63;
+    --brand-bluePale: #233240;
+    --brand-orangeInk: var(--brand-bg);
     --good: #6fbf87;
     --warn: #e2694b;
   }
 }
 
 @theme inline {
-  --color-bg: var(--bg);
-  --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
-  --color-ink: var(--ink);
-  --color-ink-muted: var(--ink-muted);
-  --color-ink-faint: var(--ink-faint);
-  --color-accent: var(--accent);
-  --color-accent-ink: var(--accent-ink);
-  --color-rule: var(--rule);
+  --color-brand-bg: var(--brand-bg);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-surfaceAlt: var(--brand-surfaceAlt);
+  --color-brand-text: var(--brand-text);
+  --color-brand-textMuted: var(--brand-textMuted);
+  --color-brand-border: var(--brand-border);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-orangeLight: var(--brand-orangeLight);
+  --color-brand-blueDeep: var(--brand-blueDeep);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-blueLight: var(--brand-blueLight);
+  --color-brand-bluePale: var(--brand-bluePale);
+  --color-brand-orangeInk: var(--brand-orangeInk);
   --color-good: var(--good);
   --color-warn: var(--warn);
   --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 body {
-  background: var(--bg);
-  color: var(--ink);
+  background: var(--brand-bg);
+  color: var(--brand-text);
 }
 
 ::placeholder {
-  color: var(--ink-faint);
+  color: var(--brand-textMuted);
   opacity: 1;
+}
+
+summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
 }
