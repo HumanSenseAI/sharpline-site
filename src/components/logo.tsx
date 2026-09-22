@@ -20,7 +20,7 @@ export function LogoMark({ className }: { className?: string }) {
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <span className={`inline-flex items-center gap-2 ${className ?? ""}`}>
+    <span className={`inline-flex items-end gap-2 ${className ?? ""}`}>
       <LogoMark />
       <span className="font-sans font-bold tracking-[0.01em] text-brand-orange">
         SHARPLINE
