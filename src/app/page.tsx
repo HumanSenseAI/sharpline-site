@@ -8,7 +8,7 @@ const STEPS = [
   {
     n: "01",
     title: "Tell us your role",
-    body: "Your role and industry — that's it. We use it to write scenarios you'll actually face.",
+    body: "Your role and industry - that's it. We use it to write scenarios you'll actually face.",
   },
   {
     n: "02",
@@ -30,7 +30,7 @@ const STEPS = [
 const FEATURES = [
   {
     title: "Instant mechanical checks",
-    body: "Word-count limits and hedge-word detection, scored the moment you submit — no waiting on a model to tell you the basics.",
+    body: "Word-count limits and hedge-word detection, scored the moment you submit - no waiting on a model to tell you the basics.",
   },
   {
     title: "On-demand AI coaching",
@@ -42,11 +42,11 @@ const FEATURES = [
   },
   {
     title: "Streaks",
-    body: "Current, longest, and total — practice that's easy to see, easy to keep up.",
+    body: "Current, longest, and total - practice that's easy to see, easy to keep up.",
   },
   {
     title: "Export your practice log",
-    body: "Download your full history — prompts, responses, feedback — as a PDF, any time.",
+    body: "Download your full history - prompts, responses, feedback - as a PDF, any time.",
   },
   {
     title: "Up to 3 programs at once",
@@ -98,7 +98,7 @@ export default function Home() {
           <p className="font-serif text-xl text-brand-textMuted italic">Stay sharp. Win more.</p>
           <p className="max-w-[54ch] text-brand-textMuted">
             Tell us your role and industry, and Sharpline builds you a
-            personalized practice program — one short communication drill a
+            personalized practice program - one short communication drill a
             day, built around scenarios you&apos;ll actually face. Instant
             word-count and precision checks, on-demand AI coaching, and a
             streak that keeps you coming back.

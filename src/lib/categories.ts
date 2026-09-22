@@ -25,7 +25,7 @@ export const CATEGORIES: Category[] = [
     name: "Structure",
     tagline: "Frame the answer",
     why: "An unstructured answer sounds like thinking out loud. A structured one sounds like judgement. Choose a frame before you speak, not after.",
-    constraint: "Use a clear frame — e.g. Point → Reason → Example → Point",
+    constraint: "Use a clear frame - e.g. Point → Reason → Example → Point",
     wordLimit: null,
   },
   {
@@ -57,7 +57,7 @@ export const CATEGORIES: Category[] = [
     key: "headline",
     name: "Headline",
     tagline: "One line they'll remember",
-    why: "If they remember one line, make it the one you chose — not whatever came out last.",
+    why: "If they remember one line, make it the one you chose - not whatever came out last.",
     constraint: "Fit your answer in the word limit.",
     wordLimit: 20,
   },
