@@ -188,7 +188,7 @@ export default function Home() {
             <p className="text-xs font-medium uppercase tracking-widest text-brand-textMuted">
               Pricing
             </p>
-            <p className="font-mono text-5xl font-semibold text-brand-text">$49</p>
+            <p className="font-mono text-5xl font-semibold text-brand-text">$29</p>
             <p className="text-brand-textMuted">
               One payment, 64 days of full access. No subscription.
             </p>
