@@ -22,7 +22,7 @@ export function Logo({ className }: { className?: string }) {
   return (
     <span className={`inline-flex items-end gap-2 ${className ?? ""}`}>
       <LogoMark />
-      <span className="font-sans font-bold tracking-[0.01em] text-brand-orange">
+      <span className="font-sans leading-none font-bold tracking-[0.01em] text-brand-orange [text-box-edge:cap_alphabetic] [text-box-trim:trim-both]">
         SHARPLINE
       </span>
     </span>
