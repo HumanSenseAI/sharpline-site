@@ -74,12 +74,16 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <Link
               href={`${APP_URL}/login`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-brand-textMuted underline underline-offset-4 hover:text-brand-text"
             >
               Log in
             </Link>
             <Link
               href={`${APP_URL}/signup`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-[3px] bg-brand-orange px-4 py-2 text-sm font-medium text-brand-orangeInk hover:opacity-90"
             >
               Get Started
@@ -106,6 +110,8 @@ export default function Home() {
           <div className="flex gap-3 pt-2">
             <Link
               href={`${APP_URL}/signup`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-[3px] bg-brand-orange px-5 py-2.5 text-sm font-medium text-brand-orangeInk hover:opacity-90"
             >
               Get Started
@@ -194,6 +200,8 @@ export default function Home() {
             </p>
             <Link
               href={`${APP_URL}/signup`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 rounded-[3px] bg-brand-orange px-5 py-2.5 text-sm font-medium text-brand-orangeInk hover:opacity-90"
             >
               Get Started
@@ -209,6 +217,8 @@ export default function Home() {
             </h2>
             <Link
               href={`${APP_URL}/signup`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-[3px] bg-brand-orange px-5 py-2.5 text-sm font-medium text-brand-orangeInk hover:opacity-90"
             >
               Get Started
