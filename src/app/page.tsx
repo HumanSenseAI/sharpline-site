@@ -92,7 +92,7 @@ export default function Home() {
         {/* Hero */}
         <section className="mx-auto flex max-w-3xl flex-col items-center gap-6 px-4 py-24 text-center">
           <p className="text-xs font-medium uppercase tracking-widest text-brand-textMuted">
-            Daily practice
+            Daily Articulation Practice
           </p>
           <Logo className="scale-125 sm:scale-150" />
           <p className="font-serif text-xl text-brand-textMuted italic">Stay sharp. Win more.</p>
